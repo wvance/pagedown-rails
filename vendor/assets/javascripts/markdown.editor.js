@@ -1153,6 +1153,7 @@
             okButton.type = "button";
             okButton.onclick = function () { return close(false); };
             okButton.value = "OK";
+            okButton.class = "btn btn-default";
             style = okButton.style;
             style.margin = "10px";
             style.display = "inline";
@@ -1164,6 +1165,7 @@
             cancelButton.type = "button";
             cancelButton.onclick = function () { return close(true); };
             cancelButton.value = "Cancel";
+            cancelButton.class = "btn btn-default";
             style = cancelButton.style;
             style.margin = "10px";
             style.display = "inline";
